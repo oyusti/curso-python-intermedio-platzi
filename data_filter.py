@@ -130,7 +130,7 @@ def run():
     print("---------------------------------------\n")
     #*****************************************************************************************************
     #Ahora crearemos un item en los diccionarios donde evalue si la persona
-    #tiene mas de 50 anos de edad. Esto lo haremos con la HOF "Map"
+    #tiene mas de 50 anos de edad. Esto lo haremos con la HOF "Map",pero debemos tener minimo python 3.9 para que el comando "pipe" funcione
     print("ASIGNAMOS UN NUEVO ITEM A LOS DICCIONARIOS DONDE SI TIENE MAS DE 50 ANOS NOS DICE SI ES TRUE O FALSE")
     print("Utilizando HOF")
     old_people = list(map(lambda worker: worker | {"old": worker["age"] > 50}, DATA))
