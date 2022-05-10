@@ -1,4 +1,3 @@
-
 #Programa que calcula los divisores de un numero e imprime mensajes de error cuando
 #se inserta un valor que no sea un numero asi como tambien, un valor cuando 
 #se ingresa un numero negativo
@@ -21,6 +20,5 @@ def run():
         print(divisors(value_entry))
 
     
-
 if __name__== '__main__':
     run()
